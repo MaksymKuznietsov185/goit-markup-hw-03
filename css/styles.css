@@ -36,8 +36,7 @@ img {
 /* === Header === */
 .container-header {
   display: flex;
-  align-items: center;
-  border-bottom: 1px solid #e7e9fc;
+  align-items:center;
 }
 
 .logo {
@@ -48,6 +47,10 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo .logo-part {
@@ -283,12 +286,10 @@ img {
 }
 
 /* === Footer === */
-.page-footer {
-  background-color: #2e2f42;
-}
 
-.footer {
-  padding: 100px 0;
+.page-footer {
+    padding: 100px 0;
+    background-color:#2e2f42;
 }
 
 .footer-logo {
